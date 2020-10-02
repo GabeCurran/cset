@@ -1,0 +1,107 @@
+/* basic formatting, such as colors, font size, etc. */
+
+body {
+    color: #00d6d6;
+    background-color: #161c1c;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+address {
+    color: #a6f6f1;
+    padding-top: 5px;
+    line-height: 25px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    padding-bottom: 1px;
+    width: 185px;
+    border-bottom: 2px solid;
+    font-weight: 900;
+}
+
+#fullname {
+    font-size: 1.2rem;
+}
+
+h2 {
+    font-weight: 800;
+}
+
+a {
+    color: #a37eba;
+}
+
+strong {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+hr {
+    border: 1px dashed #00d6d6;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+#education > p {
+    color: lightgreen;
+    font-weight: 500;
+}
+
+/* anchor coloring */
+
+#rainbow {
+    color: transparent;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+    -webkit-background-clip: text;
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+a:visited {
+    color: dimgray;
+}
+
+/* my descriptions of my fish */
+
+#amano.shrimp {
+    color: slategray;
+}
+
+#cherry.shrimp {
+    color: darkred;
+}
+
+#gourami.fish {
+     color: lightcoral;
+}
+
+#ricefish.fish {
+     color: cornflowerblue;
+}
+
+#experience {
+    color: rgb(0, 125, 209);
+}
+
+/* border rules for an image */
+
+.gradient-border {
+  border: 10px solid;
+  border-image-slice: 1;
+  border-width: 3px;
+}
+
+.gradient-border-colors {
+  border-image-source: linear-gradient(to right, #00d6d6, #007d7a, #004a48);
+}
